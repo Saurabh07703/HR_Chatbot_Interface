@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    restart: unless-stopped
+    depends_on:
+      - backend
+    networks:
+      - hr-chatbot-network
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+    env_file:
+      - ./backend/.env
+    restart: unless-stopped
+    networks:
+      - hr-chatbot-network
+
+networks:
+  hr-chatbot-network:
+    driver: bridge

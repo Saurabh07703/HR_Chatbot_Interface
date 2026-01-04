@@ -1,0 +1,110 @@
+.message-wrapper {
+    display: flex;
+    margin-bottom: var(--spacing-lg);
+    animation: fadeIn var(--transition-base) ease-out;
+}
+
+.user-message {
+    justify-content: flex-end;
+}
+
+.assistant-message {
+    justify-content: flex-start;
+}
+
+.message-bubble {
+    display: flex;
+    gap: var(--spacing-md);
+    max-width: 80%;
+    align-items: flex-start;
+}
+
+.message-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--gradient-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+}
+
+.user-avatar {
+    background: var(--gradient-accent);
+}
+
+.message-content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.message-text {
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+.user-bubble .message-text {
+    background: var(--gradient-primary);
+    color: var(--text-primary);
+    border-bottom-right-radius: var(--spacing-xs);
+}
+
+.assistant-bubble .message-text {
+    background: var(--bg-glass);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    border-bottom-left-radius: var(--spacing-xs);
+}
+
+.message-time {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    padding: 0 var(--spacing-sm);
+}
+
+.user-message .message-time {
+    text-align: right;
+}
+
+.employees-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+}
+
+.sources-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .message-bubble {
+        max-width: 90%;
+    }
+
+    .message-avatar {
+        width: 35px;
+        height: 35px;
+        font-size: 1.125rem;
+    }
+
+    .message-text {
+        padding: var(--spacing-sm) var(--spacing-md);
+    }
+}
+
+@media (max-width: 480px) {
+    .message-bubble {
+        max-width: 95%;
+    }
+}
