@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Alice Johnson",
+    "skills": ["Python", "Django", "PostgreSQL"],
+    "experience_years": 5,
+    "past_projects": ["E-commerce Platform", "Healthcare Analytics"],
+    "availability": "Available"
+  },
+  {
+    "name": "Bob Smith",
+    "skills": ["JavaScript", "React", "Node.js", "React Native"],
+    "experience_years": 4,
+    "past_projects": ["Mobile Banking App", "Retail CRM"],
+    "availability": "Available"
+  },
+  {
+    "name": "Charlie Brown",
+    "skills": ["Python", "Flask", "AWS", "Docker"],
+    "experience_years": 6,
+    "past_projects": ["Healthcare API", "IoT Dashboard"],
+    "availability": "Busy"
+  },
+  {
+    "name": "Diana Prince",
+    "skills": ["Java", "Spring Boot", "MySQL"],
+    "experience_years": 3,
+    "past_projects": ["Logistics Management System", "Healthcare Billing"],
+    "availability": "Available"
+  },
+  {
+    "name": "Ethan Hunt",
+    "skills": ["Python", "TensorFlow", "Machine Learning"],
+    "experience_years": 7,
+    "past_projects": ["Fraud Detection", "Image Recognition"],
+    "availability": "Available"
+  },
+  {
+    "name": "Fiona Carter",
+    "skills": ["React Native", "JavaScript", "UI/UX"],
+    "experience_years": 2,
+    "past_projects": ["Fitness App", "Food Delivery App"],
+    "availability": "Available"
+  },
+  {
+    "name": "George Martin",
+    "skills": ["Python", "Pandas", "Data Engineering", "Docker"],
+    "experience_years": 4,
+    "past_projects": ["Data Lake Migration", "Healthcare ETL"],
+    "availability": "Busy"
+  },
+  {
+    "name": "Hannah Lee",
+    "skills": ["AWS", "Docker", "Kubernetes", "DevOps"],
+    "experience_years": 5,
+    "past_projects": ["Cloud Migration", "CI/CD Automation"],
+    "availability": "Available"
+  },
+  {
+    "name": "Ian Wright",
+    "skills": ["React", "React Native", "TypeScript"],
+    "experience_years": 3,
+    "past_projects": ["Social Media App", "Healthcare Mobile Portal"],
+    "availability": "Available"
+  },
+  {
+    "name": "Jasmine Patel",
+    "skills": ["Python", "FastAPI", "MongoDB"],
+    "experience_years": 4,
+    "past_projects": ["Chatbot", "Inventory System"],
+    "availability": "Available"
+  },
+  {
+    "name": "Kevin O'Brien",
+    "skills": ["C#", ".NET", "Azure"],
+    "experience_years": 6,
+    "past_projects": ["Banking Software", "Healthcare Claims"],
+    "availability": "Busy"
+  },
+  {
+    "name": "Laura Kim",
+    "skills": ["React", "JavaScript", "React Native"],
+    "experience_years": 5,
+    "past_projects": ["Travel App", "Healthcare Patient Portal"],
+    "availability": "Available"
+  },
+  {
+    "name": "Michael Scott",
+    "skills": ["Python", "Docker", "AWS", "Flask"],
+    "experience_years": 8,
+    "past_projects": ["CRM System", "Healthcare Data Pipeline"],
+    "availability": "Available"
+  },
+  {
+    "name": "Nina Gomez",
+    "skills": ["Java", "Kotlin", "Android"],
+    "experience_years": 4,
+    "past_projects": ["Banking Mobile App", "Ride Sharing App"],
+    "availability": "Busy"
+  },
+  {
+    "name": "Oscar Rivera",
+    "skills": ["Python", "Pytorch", "NLP"],
+    "experience_years": 3,
+    "past_projects": ["Healthcare Chatbot", "Sentiment Analysis"],
+    "availability": "Available"
+  }
+]
