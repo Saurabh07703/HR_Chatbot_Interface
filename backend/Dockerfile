@@ -28,4 +28,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8000
 
 # Command to run the application
-CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-7860}"]
+# Debug: List files to see where 'app' ended up
+CMD ["sh", "-c", "ls -R /code && python -m uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-7860}"]
