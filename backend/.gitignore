@@ -6,3 +6,4 @@ data/chroma_duckdb/
 data/cache.sqlite
 .streamlit/
 data/chroma_db/
+.idea/
